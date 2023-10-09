@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="body.css">
+
+    <meta charset="UTF-8" />
+    <title>Adamstech Calculator</title>
+</head>
+<body>
+    <h1><span style="color:red">C</span>alculator</h1>
+    <br>
+    <input id="input"/>
+    <div id="main">
+
+        <button id="toggle_btn"onclick=switchMode()>BODMAS Disabled</button><br>
+        
+        <button onclick=backspace()></button>
+        <button onclick=clearinput()>C</button>
+        <button onclick=displaySum()></button>
+        </div> <br>
+
+        <div class="sec">
+            <button onclick=addVal('1')>1</button>
+            <button onclick=addVal('2')>2</button>
+            <button onclick=addVal('3')>3</button>
+        </div>
+
+
+        <div class="sec">
+            <button onclick=addVal('4')>4</button>
+            <button onclick=addVal('5')>5</button>
+            <button onclick=addVal('6')>6</button>
+        </div>
+
+        
+        <div class="sec">
+            <button onclick=addVal('7')>7</button>
+            <button onclick=addVal('8')>8</button>
+            <button onclick=addVal('9')>9</button>
+        </div>
+
+        <div class="sec">
+            <button onclick=addVal(.)>.</button>
+            <button onclick=addVal('0')>0</button>
+            <button onclick=addVal('+')>+</button>
+         </div><br>
+
+         <div class="sec">
+            <button onclick=addVal('-')>-</button>
+            <button onclick=addVal('*')>*</button>
+            <button onclick=addVal('/')>/</button>
+        </div>
+    </div>
+
+    <h3><u>Created by <span style="color:red"><i>A</span>damstech </i></u></h3>
+
+    <h5><u>@<span style="color:red"><i>A</span>dams Abubakr Siddique </i></u></h5>
+    <script src="function.js"></script>
+
+</body>
+</html>
